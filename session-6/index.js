@@ -14,7 +14,11 @@ while (count < 10) {
         count++
 }  
 
-for(let randomNumber = 0 <)
+for(let counter = 0; counter <= 10; counter ++){
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log("While Random", randomNumber)
+}
+
 
 
 
